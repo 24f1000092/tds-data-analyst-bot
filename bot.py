@@ -9,7 +9,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filte
 
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 AIPIPE_TOKEN = os.environ["AIPIPE_TOKEN"]
-LOG_URL = "https://raw.githubusercontent.com/23f2004580/telegram-data-analyst-bot/refs/heads/main/run.jsonl" 
+LOG_URL = "https://raw.githubusercontent.com/24f1000092/tds-data-analyst-bot/refs/heads/main/run.jsonl" 
 
 
 client = OpenAI(base_url="https://aipipe.org/openai/v1", api_key=AIPIPE_TOKEN)
